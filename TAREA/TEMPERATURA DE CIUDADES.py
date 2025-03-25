@@ -45,7 +45,7 @@ def promedio_ciudad(matriz):
             total_temp += dia [0]
             contador += 1
     return total_temp / contador
-ciudad_idx = 0
+ciudad_idx = 2
 promedio = promedio_ciudad(matrices_ciudad[ciudad_idx])
 print(f"el promedio de temperaturas en {ciudad[ciudad_idx]} es: {promedio:.2f}°c")
 
